@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+#outer{
+    text-align: center;
+    width: auto;
+    margin-top: 6.5em;
+}
+#title{
+    margin-bottom: 1em;
+}
+#survey-form{
+    opacity: 75%;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    margin-top: 2em;
+    background-color: cadetblue;
+    border: 3px solid black;
+    border-radius: 23px;
+    width: 25em;
+}
+#first-name, #last-name{
+    border-radius: .5em;
+    margin-bottom: 1.8em;
+    width: 18em;
+}
+#date{
+    border-radius: .5em;
+    margin-bottom: 1.8em;
+    width: 12.5em;
+}
+#submit{
+    margin-top: 2em;
+    border-radius: .5em;
+    margin-bottom: 1.8em;
+    width: 6em;
+}
+.center {
+    display: flex;
+    flex-flow: column;
+    align-content: stretch ;
+    justify-content: center;
+}
